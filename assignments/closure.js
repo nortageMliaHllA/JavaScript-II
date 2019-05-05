@@ -1,6 +1,11 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function kingdom() {
+  const king = 'King Ahmad';
+  console.log(`Protect ${king}`);
+}
 
+kingdom();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
@@ -12,6 +17,14 @@ const counter = () => {
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2
+// newCounter = counter();
+// function add() {
+//   counter +=1;
+// }
+// add();
+// add();
+// add();
+// add();
 
 // ==== Challenge 3: Create a counter function with an object that can increment and decrement ====
 const counterFactory = () => {
